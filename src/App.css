@@ -1,0 +1,32 @@
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+.error {
+  color: red;
+}
+
+.loading {
+  color: yellow;
+}
+
+select,
+input[type="date"] {
+  padding: 10px 20px;
+}
+
+.filters {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropdown,
+.date-input {
+  display: flex;
+  gap: 20px;
+}
